@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kalam', cursive;
-    
+}
+
+body{
+    background-image: linear-gradient(to right, pink, lightgreen)
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
-    background-image: linear-gradient(to right, pink, lightgreen)
 }
 
 .header{
