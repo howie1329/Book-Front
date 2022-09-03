@@ -52,7 +52,10 @@ function addbook(e){
 
     output_Div.appendChild(card)
 
-    
+    bookTitle.value = '';
+    bookAuthor.value = '';
+    bookPages.value = '';
+    bookStatus.checked = false;
 
     e.preventDefault();
 
