@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Front</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 id = header-text>Book Front</h2>
+            <h2>By Howard Thomas</h2>
+            <form action="" id = form class = form>
+                <label for="Book Title">Book Title</label>
+                <input type="text" id = book-title>
+                <label for="Author">Author</label>
+                <input type="text" id = book-author>
+                <label for="Pages">Total Pages</label>
+                <input type="number" id = book-pages>
+
+                <label for="bookstatus">Read?</label>
+                <input type="checkbox" name="book-status" id="book-status">
+
+                <button type="submit" id = submit-btn>Submit</button>
+            </form>
+            <p id = instructions>Simply Enter The Name Of Your Book, The Author, And The Number Of Pages, And If You Finished Or Not. Finished Book Will Be Highlighted In Green. Delete Books By Using Delete Button.</p>
+        </div>
+        
+        <div class="main-body">
+            <div id="output">
+                <div class="card">
+                    <h3>Book Title</h3>
+                    <p>Author</p>
+                    <p>Page Number</p>
+                    <button class = delete-btn>Delete Book</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
